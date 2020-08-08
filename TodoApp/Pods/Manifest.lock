@@ -1,0 +1,24 @@
+PODS:
+  - CLTypingLabel (0.4.0)
+  - lottie-ios (3.1.8)
+  - RAMAnimatedTabBarController (5.2.0)
+
+DEPENDENCIES:
+  - CLTypingLabel (~> 0.4.0)
+  - lottie-ios
+  - RAMAnimatedTabBarController
+
+SPEC REPOS:
+  trunk:
+    - CLTypingLabel
+    - lottie-ios
+    - RAMAnimatedTabBarController
+
+SPEC CHECKSUMS:
+  CLTypingLabel: 95a7d1faf7e3d1d952cd11cb0491d17d80c50934
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  RAMAnimatedTabBarController: 6863a386e7ae2ab227cd60aa73ab8ff56cdacfdd
+
+PODFILE CHECKSUM: 3f06dbb8bd1b0ca74e0324698086bdcad5f61625
+
+COCOAPODS: 1.9.3
