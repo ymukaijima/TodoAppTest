@@ -41,12 +41,12 @@ class WelcomeViewController: UIViewController, UIScrollViewDelegate {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.isNavigationBarHidden = true
+//        self.navigationController?.isNavigationBarHidden = true
     }
     
     func setUpScroll(){
         scrollView?.delegate = self
-        scrollView?.contentSize = CGSize(width: view.frame.size.width * 5, height: scrollView.frame.size.height)
+        scrollView?.contentSize = CGSize(width: view.frame.size.width * CGFloat(todoArray.count), height: scrollView.frame.size.height)
         for i in 0...2{
            let onboardLabel = UILabel(frame: CGRect(x: CGFloat(i)*view.frame.size.width, y: view.frame.size.height/3, width: scrollView.frame.size.width, height: scrollView.frame.size.height))
            onboardLabel.font = UIFont.boldSystemFont(ofSize: 15.0)

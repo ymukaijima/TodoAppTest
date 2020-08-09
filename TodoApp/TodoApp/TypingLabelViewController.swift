@@ -12,6 +12,12 @@ import CLTypingLabel
 class TypingLabelViewController: UIViewController {
     
     @IBOutlet weak var titleLabel: CLTypingLabel!
-
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        titleLabel.text = "TodoApp"
+        
+    }
 
 }

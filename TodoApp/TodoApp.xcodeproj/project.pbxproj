@@ -18,6 +18,7 @@
 		CE87DB2A24D404FC0092521D /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = CE87DB2724D404FB0092521D /* success.json */; };
 		CE87DB2B24D404FC0092521D /* checklist.json in Resources */ = {isa = PBXBuildFile; fileRef = CE87DB2824D404FC0092521D /* checklist.json */; };
 		CEA7E87024DCFF3300F1740F /* TypingLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7E86F24DCFF3300F1740F /* TypingLabelViewController.swift */; };
+		CEDA2BED24E0390500B0E580 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA2BEC24E0390400B0E580 /* TodoListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		CE87DB2724D404FB0092521D /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 		CE87DB2824D404FC0092521D /* checklist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = checklist.json; sourceTree = "<group>"; };
 		CEA7E86F24DCFF3300F1740F /* TypingLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingLabelViewController.swift; sourceTree = "<group>"; };
+		CEDA2BEC24E0390400B0E580 /* TodoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodoListViewController.swift; path = Pods/TodoListViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		CE33882E24D046CF006C200C /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEDA2BEC24E0390400B0E580 /* TodoListViewController.swift */,
 				CE33882F24D046CF006C200C /* AppDelegate.swift */,
 				CE33883124D046CF006C200C /* SceneDelegate.swift */,
 				CE33883324D046CF006C200C /* WelcomeViewController.swift */,
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDA2BED24E0390500B0E580 /* TodoListViewController.swift in Sources */,
 				CEA7E87024DCFF3300F1740F /* TypingLabelViewController.swift in Sources */,
 				CE33883424D046CF006C200C /* WelcomeViewController.swift in Sources */,
 				CE33883024D046CF006C200C /* AppDelegate.swift in Sources */,
