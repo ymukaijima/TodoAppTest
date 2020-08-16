@@ -1,24 +1,43 @@
 PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
   - CLTypingLabel (0.4.0)
   - lottie-ios (3.1.8)
   - RAMAnimatedTabBarController (5.2.0)
+  - XLPagerTabStrip (9.0.0)
 
 DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/wowansm/Chameleon.git`, branch `swift5`)
   - CLTypingLabel (~> 0.4.0)
   - lottie-ios
   - RAMAnimatedTabBarController
+  - XLPagerTabStrip
 
 SPEC REPOS:
   trunk:
     - CLTypingLabel
     - lottie-ios
     - RAMAnimatedTabBarController
+    - XLPagerTabStrip
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :branch: swift5
+    :git: https://github.com/wowansm/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 96d52c36a45847fff60bcff7a58fec1e4bd7390b
+    :git: https://github.com/wowansm/Chameleon.git
 
 SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   CLTypingLabel: 95a7d1faf7e3d1d952cd11cb0491d17d80c50934
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
   RAMAnimatedTabBarController: 6863a386e7ae2ab227cd60aa73ab8ff56cdacfdd
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
 
-PODFILE CHECKSUM: 3f06dbb8bd1b0ca74e0324698086bdcad5f61625
+PODFILE CHECKSUM: 74635ca981122b0eaf8fcd8d6a4e7d5e96b4e01d
 
 COCOAPODS: 1.9.3

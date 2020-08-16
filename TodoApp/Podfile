@@ -9,5 +9,7 @@ target 'TodoApp' do
   pod 'lottie-ios'
   pod 'RAMAnimatedTabBarController'
   pod 'CLTypingLabel', '~> 0.4.0'
+  pod 'ChameleonFramework/Swift', :git => 'https://github.com/wowansm/Chameleon.git', :branch => 'swift5'
+  pod 'XLPagerTabStrip'
 
 end
