@@ -96,20 +96,13 @@
 			isa = PBXGroup;
 			children = (
 				CE33883524D046CF006C200C /* Main.storyboard */,
-				CE3C1DEB24E8C4650088520F /* AddViewController.swift */,
-				CE3C1DEC24E8C4660088520F /* AddViewController.xib */,
-				CE3C1DEF24E8C46F0088520F /* TodoItemCell.swift */,
-				CE3C1DF024E8C46F0088520F /* TodoItemCell.xib */,
-				CE3C1DEE24E8C46E0088520F /* TodoListViewController.swift */,
-				CE3C1DF424E8C47B0088520F /* TypingLabelViewController.swift */,
-				CE3C1DF324E8C47B0088520F /* WelcomeViewController.swift */,
-				CE3C1DF724E8C4830088520F /* DetailViewController.swift */,
-				CE3C1DF824E8C4830088520F /* DetailViewController.xib */,
-				CE96168124E84402003EE8D9 /* SettingViewController.swift */,
-				CE96167B24E82752003EE8D9 /* MemoViewController.swift */,
-				CE96166F24E81BE8003EE8D9 /* MessageViewController.swift */,
-				CE96167324E81F09003EE8D9 /* SentMessageViewController.swift */,
-				CE96167724E81FFC003EE8D9 /* ReceivedMessageViewController.swift */,
+				CE957D5624E8F39900F36E57 /* WelcomeViewController */,
+				CE957D5524E8F2C600F36E57 /* TodoListViewController */,
+				CE957D5424E8F28C00F36E57 /* AddViewController */,
+				CE957D5724E8F3DE00F36E57 /* DetailViewController */,
+				CE957D5924E8F43900F36E57 /* SettingViewController */,
+				CE957D5824E8F40300F36E57 /* MessageViewController */,
+				CE957D5A24E8F44F00F36E57 /* MemoViewController */,
 				CEEEA90A24E8C65500BCEAE3 /* AppDelegate.swift */,
 				CEEEA90B24E8C65500BCEAE3 /* Info.plist */,
 				CEEEA90C24E8C65500BCEAE3 /* SceneDelegate.swift */,
@@ -120,6 +113,69 @@
 				CE33883A24D046D1006C200C /* LaunchScreen.storyboard */,
 			);
 			path = TodoApp;
+			sourceTree = "<group>";
+		};
+		CE957D5424E8F28C00F36E57 /* AddViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C1DEB24E8C4650088520F /* AddViewController.swift */,
+				CE3C1DEC24E8C4660088520F /* AddViewController.xib */,
+			);
+			path = AddViewController;
+			sourceTree = "<group>";
+		};
+		CE957D5524E8F2C600F36E57 /* TodoListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C1DEE24E8C46E0088520F /* TodoListViewController.swift */,
+				CE3C1DEF24E8C46F0088520F /* TodoItemCell.swift */,
+				CE3C1DF024E8C46F0088520F /* TodoItemCell.xib */,
+			);
+			path = TodoListViewController;
+			sourceTree = "<group>";
+		};
+		CE957D5624E8F39900F36E57 /* WelcomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C1DF324E8C47B0088520F /* WelcomeViewController.swift */,
+				CE3C1DF424E8C47B0088520F /* TypingLabelViewController.swift */,
+			);
+			path = WelcomeViewController;
+			sourceTree = "<group>";
+		};
+		CE957D5724E8F3DE00F36E57 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C1DF724E8C4830088520F /* DetailViewController.swift */,
+				CE3C1DF824E8C4830088520F /* DetailViewController.xib */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		CE957D5824E8F40300F36E57 /* MessageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE96166F24E81BE8003EE8D9 /* MessageViewController.swift */,
+				CE96167324E81F09003EE8D9 /* SentMessageViewController.swift */,
+				CE96167724E81FFC003EE8D9 /* ReceivedMessageViewController.swift */,
+			);
+			path = MessageViewController;
+			sourceTree = "<group>";
+		};
+		CE957D5924E8F43900F36E57 /* SettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE96168124E84402003EE8D9 /* SettingViewController.swift */,
+			);
+			path = SettingViewController;
+			sourceTree = "<group>";
+		};
+		CE957D5A24E8F44F00F36E57 /* MemoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE96167B24E82752003EE8D9 /* MemoViewController.swift */,
+			);
+			path = MemoViewController;
 			sourceTree = "<group>";
 		};
 		F1CC6C8F3E21E225CF82FFF0 /* Frameworks */ = {

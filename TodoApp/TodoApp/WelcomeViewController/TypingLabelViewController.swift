@@ -16,7 +16,7 @@ class TypingLabelViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        titleLabel.text = "TodoApp"
+        titleLabel.text = "Mouth Todo"
         
     }
 
